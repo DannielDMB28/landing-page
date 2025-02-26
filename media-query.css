@@ -1,7 +1,13 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 450px){
+    .phone-button {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1170px) {
-    .mobile-list, ul#navlist, .btn-default{
+    .mobile-list, ul#navlist, nav > .btn-default {
          display: none;
 
     }
@@ -50,5 +56,21 @@
     div > button:hover {
         background-color: #f8c473;
     }
+
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
     
+    #banner, #banner > img, .shape {
+        display: none;
+    }
+
+    #cta {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+
 }
