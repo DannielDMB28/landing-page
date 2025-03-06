@@ -304,3 +304,37 @@ div > p {
 .feedback-content > p > strong {
     font-size: 1.2rem;
 }
+
+footer{
+    background-color: #ef9c00;
+}
+
+#footer-itens {
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+}
+
+#copyright {
+    color: white;
+    font-weight: 500;
+  
+}
+
+.media {
+    display: flex;
+    gap: 18px;
+}
+
+.media > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: ;
+    font-size: 1.25em;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+}
