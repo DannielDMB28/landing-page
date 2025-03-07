@@ -21,10 +21,6 @@
         width: 100%;
     }
 
-    .dish {
-        width: 100%;
-    }
-
     .rate {
         display: flex;
         align-items: center;
