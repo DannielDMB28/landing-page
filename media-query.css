@@ -42,6 +42,11 @@
         flex-direction: column;
     }
 
+    #footer-itens {
+        flex-direction: column;
+        gap: 28px;
+    }
+
 }
 
 @media screen and (max-width: 1170px) {
