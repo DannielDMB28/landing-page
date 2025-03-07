@@ -18,9 +18,14 @@
     #dishes {
         align-items: center;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
     }
 
+ .dis {
+    width: 100%;
+   }
+
+  
     .rate {
         display: flex;
         align-items: center;
